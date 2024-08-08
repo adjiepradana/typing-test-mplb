@@ -135,7 +135,7 @@ function displayScore(){
   cw.classList.add("current");
 
   time.innerText = percentageAcc+"%";
-  timeName.innerText = "PA";
+  timeName.innerText = "ACC";
 
   cw.innerText = factor*wordsCorrect;
   cwName.innerText = "WPM";
